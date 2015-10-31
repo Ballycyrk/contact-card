@@ -1,0 +1,17 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#container {
+  width: 950px;
+  margin: 0px auto;
+  padding: 0px 10px;
+}
+
+#container div {
+  display: inline-block;
+  width: 470px;
+  height: 800px;
+  vertical-align: top;
+}
