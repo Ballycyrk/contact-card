@@ -9,9 +9,43 @@
   padding: 0px 10px;
 }
 
-#container div {
+#container > div {
   display: inline-block;
   width: 470px;
   height: 800px;
   vertical-align: top;
+}
+
+ #btn {
+    display: block;
+    margin-left: 20px;
+    margin-top: 15px;
+    padding: 3px 7px;
+    background-color: rgba(119, 136, 153, 0.42);
+    border-radius: 5px;
+    font-size: small;
+ }
+
+ .form {
+  display: block;
+  padding: 20px 0px 0px 20px;
+ }
+
+ #contacts div {
+  width: 450px;
+  height: 225px;
+  border: 1px solid black;
+  margin-top: 50px;
+ }
+
+textarea {
+  margin-top: 5px;
+  margin-left: 20px;
+  width: 200px;
+  height: 100px;
+}
+
+h1, h3 {
+  text-align: center;
+  padding: 80px 20px 0px;
 }
